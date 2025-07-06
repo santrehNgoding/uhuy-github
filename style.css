@@ -255,8 +255,12 @@ input[type="submit"]:hover {
 
 
 /* Media Query */
-
 @media(max-width: 768px) {
+  body {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+  }
+
   header {
     padding: 8px;
   }
@@ -289,6 +293,26 @@ input[type="submit"]:hover {
 
   nav a {
     margin: 10px 0;
+  }
+
+  .hero-image{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .image > img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .profil-me{
+    width: 100%;
   }
 }
 
