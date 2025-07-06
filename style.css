@@ -240,6 +240,35 @@ input[type="submit"]:hover {
   padding: 8px 0;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media(max-width:768px) {
+  .nav-links{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: var(--main-color);
+    padding: 1em;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
 
 
 

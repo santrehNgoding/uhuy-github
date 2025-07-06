@@ -13,13 +13,14 @@
   <body>
     <header>
       <p>Yuliatin Ningsih</p>
-      <nav>
+      <nav class="nav-links">
         <a href="">Home</a>
         <a href="">Experience & Education</a>
         <a href="">Portfolio</a>
         <a href="">Writing</a>
         <a href="">Speaking</a>
       </nav>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     </header>
     <div class="hero-image">
       <div class="image">
@@ -132,8 +133,16 @@
         </div>
         <div class="form">
           <form action="">
-            <input class="item" placeholder="Nama" type="text" />
-            <input placeholder="Email" type="email" />
+            <input
+              title="Please fill out this field"
+              placeholder="Nama"
+              type="text"
+            />
+            <input
+              title="Please fill out this field"
+              placeholder="Email"
+              type="email"
+            />
             <input placeholder="Number" type="number" />
             <textarea
               placeholder="Type your message here..!"
@@ -149,5 +158,15 @@
         <p>&#169;2025 by santrehNgoding</p>
       </div>
     </footer>
+
+    <!-- Javascript -->
+    <script>
+      const toggleBtn = document.getElementById("menu-toggle");
+      const nav = document.querySelector(".nav-links");
+
+      toggleBtn.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
