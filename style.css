@@ -1,0 +1,253 @@
+:root {
+    --main-color: #FFFFFF;
+    --second-color:#155DE9;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Genome", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+}
+
+header p {
+    font-family: "Aptos", sans-serif;
+    font-size: 20px;
+}
+
+header nav {
+    font-size: 16px;
+}
+
+nav {
+    align-self: center;
+}
+
+nav a {
+    color: black;
+    margin-left: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--second-color);
+}
+
+.hero-image {
+  display: flex;
+  min-height: 100vh;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profil-me {
+  width: 50%;
+  background-color: var(--second-color);
+  color: white;
+  padding: 5em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profil {
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: 0.5em;
+  padding-left: 2em;
+}
+
+.description {
+  background-color: var(--main-color);
+  color: black;
+  padding: 2em;
+  margin-top: 2em;
+  margin-left: 3.5em;
+  box-shadow: -10px 10px 0 #1938D1;
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+}
+
+.buttons a{
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttons button:first-child{
+  background-color: black;
+}
+
+.buttons button:last-child{
+  border: 2px solid var(--second-color);
+}
+
+button a:last-child{
+  color: var(--second-color);
+}
+
+.buttons .item1:hover{
+  color: white;
+}
+
+.buttons .item2:hover{
+  color: black;
+}
+
+main p{
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+.main-content{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 2em;
+  justify-content: center;
+  padding: 1em 15em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.heading-title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-left: 7em;
+  padding-top: 2em;
+}
+
+li {
+  line-height: 25px;
+}
+
+.left-content, .right-content {
+  margin-bottom: 5em;
+}
+
+.footer-utama {
+  display: flex;
+  justify-content: center;
+  background-color: var(--second-color);
+  color: var(--main-color);
+  gap: 2em;
+  padding: 5em 0;
+  box-sizing: border-box;
+}
+
+.footer-utama .contact {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: left;
+}
+
+.contact > p{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  width: fit-content;
+  align-self: flex-start;
+  margin: 0;
+}
+
+.footer-utama .form{
+  width: 50%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  box-sizing: border-box;
+  font-family: "Genome", sans-serif;
+}
+
+form input {
+  padding: 7px;
+  margin-bottom: 5px;
+  background-color: #1855BF;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea {
+  background-color: #1855BF;
+}
+
+textarea::placeholder{
+  color: white;
+}
+
+.form textarea{
+  margin-bottom: 5px;
+}
+
+input[type="submit"]{
+  width: 170px;
+  align-self: flex-end;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #1855BF;
+}
+
+.footer-bawah {
+  text-align: center;
+  background-color: #23324F;
+  color: var(--main-color);
+  padding: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
