@@ -255,7 +255,12 @@ input[type="submit"]:hover {
 
 
 /* Media Query */
+
 @media(max-width: 768px) {
+  header {
+    padding: 8px;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
