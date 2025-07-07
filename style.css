@@ -256,11 +256,6 @@ input[type="submit"]:hover {
 
 /* Media Query */
 @media (max-width: 768px) {
-  body {
-    box-sizing: border-box;
-    /* overflow: hidden; */
-  }
-
   header {
     padding: 8px;
   }
@@ -314,6 +309,45 @@ input[type="submit"]:hover {
 
   .profil-me{
     width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .description{
+    margin: 0;
+  }
+
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .heading-title{
+    padding: 0;
+    text-align: center;
+  }
+
+  .left-content{
+    width: 100%;
+  }
+
+  .footer-utama{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .desktop-br{
+    display: none;
+  }
+
+  .contact p{
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: center;
   }
 }
 
