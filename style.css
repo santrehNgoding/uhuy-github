@@ -379,6 +379,10 @@ input[type="submit"]:hover {
     width: 100%;
     box-sizing: border-box;
   }
+
+  .description > p {
+    text-align: justify;
+  }
 }
 
 
