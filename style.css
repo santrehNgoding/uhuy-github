@@ -363,10 +363,11 @@ input[type="submit"]:hover {
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   input[type="submit"]{
-    width: 200px;
+    width: 250px;
   }
 }
 
