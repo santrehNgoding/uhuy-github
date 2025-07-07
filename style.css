@@ -365,7 +365,7 @@ input[type="submit"]:hover {
   }
 
   input[type="submit"]{
-    width: inherit;
+    width: 250px;
   }
 }
 
