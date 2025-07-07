@@ -357,7 +357,7 @@ input[type="submit"]:hover {
     text-align: center;
   }
 
-  form{
+  .form form{
     width: 250px;
     padding: 0;
     margin: 0;
